@@ -13,6 +13,8 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "prEstructuraSecuencial", "p
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "prOperadoresAritmeticos", "prOperadoresAritmeticos\prOperadoresAritmeticos.vbproj", "{ADBA1A51-A4AE-4645-9EF7-5E219E47AA1B}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "prUtilidad", "prUtilidad\prUtilidad.vbproj", "{81824865-9BA7-4E6A-9696-ACBAB3F80536}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{ADBA1A51-A4AE-4645-9EF7-5E219E47AA1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADBA1A51-A4AE-4645-9EF7-5E219E47AA1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADBA1A51-A4AE-4645-9EF7-5E219E47AA1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81824865-9BA7-4E6A-9696-ACBAB3F80536}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81824865-9BA7-4E6A-9696-ACBAB3F80536}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81824865-9BA7-4E6A-9696-ACBAB3F80536}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81824865-9BA7-4E6A-9696-ACBAB3F80536}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

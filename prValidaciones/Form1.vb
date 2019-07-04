@@ -58,4 +58,22 @@ Public Class Form1
         txtDesc.Clear()
     End Sub
 
+    Private Sub TxtNombre_MouseHover(sender As Object, e As EventArgs) Handles txtNombre.MouseHover
+        ttMensaje.SetToolTip(txtNombre, "Ingrese aquí el nombre del usuario:")
+        ttMensaje.ToolTipTitle = "Nombre del Usuario"
+        ttMensaje.ToolTipIcon = ToolTipIcon.Info
+
+    End Sub
+
+    Private Sub TxtEdad_MouseHover(sender As Object, e As EventArgs) Handles txtEdad.MouseHover
+        ttMensaje.SetToolTip(txtEdad, "Ingrese aquí la edad del usuario:")
+        ttMensaje.ToolTipTitle = "Edad del Usuario"
+        ttMensaje.ToolTipIcon = ToolTipIcon.Info
+    End Sub
+
+    Private Sub TxtSalario_MouseHover(sender As Object, e As EventArgs) Handles txtSalario.MouseHover
+        ttMensaje.SetToolTip(txtSalario, "Ingrese aquí el salario del usuario:")
+        ttMensaje.ToolTipTitle = "Salario del Usuario"
+        ttMensaje.ToolTipIcon = ToolTipIcon.Info
+    End Sub
 End Class

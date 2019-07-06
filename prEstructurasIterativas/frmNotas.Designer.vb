@@ -23,16 +23,16 @@ Partial Class frmNotas
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.txtNumero = New System.Windows.Forms.TextBox()
         Me.btnSalir = New System.Windows.Forms.Button()
         Me.btnCalcular = New System.Windows.Forms.Button()
         Me.btnNuevo = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.txtPromedio = New System.Windows.Forms.TextBox()
+        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.txtNotaBaja = New System.Windows.Forms.TextBox()
+        Me.txtPromedio = New System.Windows.Forms.TextBox()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.SuspendLayout()
@@ -50,19 +50,6 @@ Partial Class frmNotas
         Me.GroupBox1.TabIndex = 0
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Ingrese Alumnos"
-        '
-        'GroupBox2
-        '
-        Me.GroupBox2.Controls.Add(Me.txtNotaBaja)
-        Me.GroupBox2.Controls.Add(Me.txtPromedio)
-        Me.GroupBox2.Controls.Add(Me.Label3)
-        Me.GroupBox2.Controls.Add(Me.Label2)
-        Me.GroupBox2.Location = New System.Drawing.Point(24, 219)
-        Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(575, 219)
-        Me.GroupBox2.TabIndex = 1
-        Me.GroupBox2.TabStop = False
-        Me.GroupBox2.Text = "Resultados"
         '
         'txtNumero
         '
@@ -107,14 +94,32 @@ Partial Class frmNotas
         Me.Label1.TabIndex = 5
         Me.Label1.Text = "Número de Alumnos:"
         '
-        'Label2
+        'GroupBox2
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(42, 54)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(54, 13)
-        Me.Label2.TabIndex = 0
-        Me.Label2.Text = "Promedio:"
+        Me.GroupBox2.Controls.Add(Me.txtNotaBaja)
+        Me.GroupBox2.Controls.Add(Me.txtPromedio)
+        Me.GroupBox2.Controls.Add(Me.Label3)
+        Me.GroupBox2.Controls.Add(Me.Label2)
+        Me.GroupBox2.Location = New System.Drawing.Point(24, 219)
+        Me.GroupBox2.Name = "GroupBox2"
+        Me.GroupBox2.Size = New System.Drawing.Size(575, 219)
+        Me.GroupBox2.TabIndex = 1
+        Me.GroupBox2.TabStop = False
+        Me.GroupBox2.Text = "Resultados"
+        '
+        'txtNotaBaja
+        '
+        Me.txtNotaBaja.Location = New System.Drawing.Point(143, 111)
+        Me.txtNotaBaja.Name = "txtNotaBaja"
+        Me.txtNotaBaja.Size = New System.Drawing.Size(100, 20)
+        Me.txtNotaBaja.TabIndex = 3
+        '
+        'txtPromedio
+        '
+        Me.txtPromedio.Location = New System.Drawing.Point(143, 54)
+        Me.txtPromedio.Name = "txtPromedio"
+        Me.txtPromedio.Size = New System.Drawing.Size(100, 20)
+        Me.txtPromedio.TabIndex = 2
         '
         'Label3
         '
@@ -125,26 +130,21 @@ Partial Class frmNotas
         Me.Label3.TabIndex = 1
         Me.Label3.Text = "Nota más Baja:"
         '
-        'txtPromedio
+        'Label2
         '
-        Me.txtPromedio.Location = New System.Drawing.Point(143, 54)
-        Me.txtPromedio.Name = "txtPromedio"
-        Me.txtPromedio.Size = New System.Drawing.Size(100, 20)
-        Me.txtPromedio.TabIndex = 2
-        '
-        'txtNotaBaja
-        '
-        Me.txtNotaBaja.Location = New System.Drawing.Point(143, 111)
-        Me.txtNotaBaja.Name = "txtNotaBaja"
-        Me.txtNotaBaja.Size = New System.Drawing.Size(100, 20)
-        Me.txtNotaBaja.TabIndex = 3
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(42, 54)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(54, 13)
+        Me.Label2.TabIndex = 0
+        Me.Label2.Text = "Promedio:"
         '
         'frmNotas
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(619, 450)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
         Me.Name = "frmNotas"

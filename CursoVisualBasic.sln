@@ -27,6 +27,10 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "prEstructurasIterativas", "
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "prEstructuraIterativaDoWhile", "prEstructuraIterativaDoWhile\prEstructuraIterativaDoWhile.vbproj", "{76F510CA-0A20-41FB-A15D-171D5ECEB204}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "prEstructuraIterativaBucleWhile", "prEstructuraIterativaBucleWhile\prEstructuraIterativaBucleWhile.vbproj", "{FDDB9040-BC61-4871-A8BD-CFBD54714605}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "prArrayVector", "prArrayVector\prArrayVector\prArrayVector.vbproj", "{B176D9C7-3200-4BB3-ADC7-C4ED18B02A5C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +85,14 @@ Global
 		{76F510CA-0A20-41FB-A15D-171D5ECEB204}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76F510CA-0A20-41FB-A15D-171D5ECEB204}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76F510CA-0A20-41FB-A15D-171D5ECEB204}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDDB9040-BC61-4871-A8BD-CFBD54714605}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDDB9040-BC61-4871-A8BD-CFBD54714605}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDDB9040-BC61-4871-A8BD-CFBD54714605}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDDB9040-BC61-4871-A8BD-CFBD54714605}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B176D9C7-3200-4BB3-ADC7-C4ED18B02A5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B176D9C7-3200-4BB3-ADC7-C4ED18B02A5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B176D9C7-3200-4BB3-ADC7-C4ED18B02A5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B176D9C7-3200-4BB3-ADC7-C4ED18B02A5C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

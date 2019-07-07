@@ -33,6 +33,10 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "prArrayVector", "prArrayVec
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "prMatrizMultidemensional", "prMatrizMultidemensional\prMatrizMultidemensional.vbproj", "{45C3AF74-E32A-4531-8774-A6F22A34AAB0}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "prFuncionesCadena", "prFuncionesCadena\prFuncionesCadena.vbproj", "{32F43103-A9B0-415D-89BF-5E6A2D0225B6}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "prProcedimientosyFunciones", "prProcedimientosyFunciones\prProcedimientosyFunciones.vbproj", "{98FEED73-9A6F-4F13-B1B5-1EFF37F91B51}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +103,14 @@ Global
 		{45C3AF74-E32A-4531-8774-A6F22A34AAB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45C3AF74-E32A-4531-8774-A6F22A34AAB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{45C3AF74-E32A-4531-8774-A6F22A34AAB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32F43103-A9B0-415D-89BF-5E6A2D0225B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32F43103-A9B0-415D-89BF-5E6A2D0225B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32F43103-A9B0-415D-89BF-5E6A2D0225B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32F43103-A9B0-415D-89BF-5E6A2D0225B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98FEED73-9A6F-4F13-B1B5-1EFF37F91B51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98FEED73-9A6F-4F13-B1B5-1EFF37F91B51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98FEED73-9A6F-4F13-B1B5-1EFF37F91B51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98FEED73-9A6F-4F13-B1B5-1EFF37F91B51}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -37,6 +37,8 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "prFuncionesCadena", "prFunc
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "prProcedimientosyFunciones", "prProcedimientosyFunciones\prProcedimientosyFunciones.vbproj", "{98FEED73-9A6F-4F13-B1B5-1EFF37F91B51}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "prGestionAhorros", "prGestionAhorros\prGestionAhorros.vbproj", "{416C34C1-3F7D-439B-BDF9-D5E3B1C38605}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{98FEED73-9A6F-4F13-B1B5-1EFF37F91B51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98FEED73-9A6F-4F13-B1B5-1EFF37F91B51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98FEED73-9A6F-4F13-B1B5-1EFF37F91B51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{416C34C1-3F7D-439B-BDF9-D5E3B1C38605}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{416C34C1-3F7D-439B-BDF9-D5E3B1C38605}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{416C34C1-3F7D-439B-BDF9-D5E3B1C38605}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{416C34C1-3F7D-439B-BDF9-D5E3B1C38605}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

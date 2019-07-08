@@ -47,6 +47,10 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Formularios", "Formularios\
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Clases", "Clases\Clases.vbproj", "{FF4F0934-A1D9-4C0A-B65E-F74D613DA9DA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MDI", "MDI", "{F554795E-D13F-4D40-BF74-DFA92A527230}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "prNavegacionFormularios", "prNavegacionFormularios\prNavegacionFormularios.vbproj", "{47A7F03E-C4F7-48AD-BF28-56ED9251BD41}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -137,6 +141,10 @@ Global
 		{FF4F0934-A1D9-4C0A-B65E-F74D613DA9DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF4F0934-A1D9-4C0A-B65E-F74D613DA9DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF4F0934-A1D9-4C0A-B65E-F74D613DA9DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47A7F03E-C4F7-48AD-BF28-56ED9251BD41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47A7F03E-C4F7-48AD-BF28-56ED9251BD41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47A7F03E-C4F7-48AD-BF28-56ED9251BD41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47A7F03E-C4F7-48AD-BF28-56ED9251BD41}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -144,6 +152,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{AC10A51E-C0C2-4323-8C58-5910711F5B71} = {9ABBF8AB-22FE-4DC9-8BF1-9E9CD694D2BC}
 		{FF4F0934-A1D9-4C0A-B65E-F74D613DA9DA} = {9ABBF8AB-22FE-4DC9-8BF1-9E9CD694D2BC}
+		{47A7F03E-C4F7-48AD-BF28-56ED9251BD41} = {F554795E-D13F-4D40-BF74-DFA92A527230}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C388F66A-AB37-4DA9-8874-84E761E3AF17}
